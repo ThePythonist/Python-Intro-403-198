@@ -1,10 +1,18 @@
-number = 1
+# number = 1
+# evens = []
+#
+# while number <= 20:
+#     if number % 2 == 0:
+#         evens.append(number)
+#     number += 1
+#
+# print(evens)
+
+
 evens = []
 
-while number <= 20:
-    if number % 2 == 0:
-        evens.append(number)
-    number += 1
+for i in range(1, 20):
+    if i % 2 == 0:
+        evens.append(i)
 
 print(evens)
-
