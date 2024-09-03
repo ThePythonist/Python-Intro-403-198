@@ -1,12 +1,15 @@
-# items = [[1, 2], [4, 5, 6], [7, 8, 9]]
-#
-# for i in items:
-#     for j in i:
-#         print(j)
+items = [10, 40, 30, 20]
+print(sum(items))
 
-for i in range(10):
-    print(i)
-    if i == 7:
-        break
-else:
-    print("OK")
+
+# ===================================================
+def mysum(seq):
+    summation = 0
+
+    for i in seq:
+        summation += i
+
+    return summation
+
+
+print(mysum([10, 30, 20, 40]))

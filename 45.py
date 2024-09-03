@@ -1,9 +1,13 @@
-num = input("Entry : ")
+numbers = []
 
-try:
-    num = int(num)
-    print("Entry was a number")
-except ValueError:
-    print("Entry was not a number")
+for i in range(3):
+    num = input("Entry : ")
 
-print("edameye barname")
+    try:
+        num = int(num)
+        numbers.append(num)
+    except ValueError:
+        # print("Entry was not a number")
+        pass
+
+print(numbers)
