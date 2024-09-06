@@ -6,16 +6,16 @@ def b():
     print("hello world")
 
 
-def b2():
-    return "hello"
-
-
 def c():
     return
 
 
 def d():
     return None
+
+
+def b2():
+    return "hello world"
 
 
 # -----------------------------------------------

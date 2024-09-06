@@ -1,15 +1,19 @@
-items = [10, 40, 30, 20]
-print(sum(items))
+# x = 10  # global
+# z = 5
+#
+#
+# def func():
+#     y = 20  # local
+#     z = 3  # local
+#     print("inside func :", z)
+#
+#
+# func()
+# print("outside func :", z)
+
+# ------------------------------------------------------------------------
 
 
-# ===================================================
-def mysum(seq):
-    summation = 0
+# جمع نمرات با احتساب ضریب تقسیم بر جمع ضرایب
+# print((20 * 3 + 17 * 2 + 15 * 1 + 7 * 3 + 14 * 2) / (3 + 2 + 1 + 3 + 2))
 
-    for i in seq:
-        summation += i
-
-    return summation
-
-
-print(mysum([10, 30, 20, 40]))

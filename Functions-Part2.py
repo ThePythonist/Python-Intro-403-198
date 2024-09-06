@@ -4,7 +4,8 @@
 #     return number
 #
 #
-# print(Taabe1(40))
+# print(Taabe1())
+
 
 # def Taabe2(a, b):
 #     print(a ** b)
@@ -19,10 +20,10 @@
 #
 # print(Taabe3(int(input("Entry : "))))
 
-#
+
 # # -------------------- Optional Argument --------------------
-#
-# def f4(a=4):
+
+# def f4(a=3):
 #     return a ** 3
 #
 #
@@ -36,14 +37,15 @@
 # print(f5(14))
 #
 #
-# def f6(a, b=4):
-#     return a + b
+# def f6(b=4, a):
+#     return a ** b
 #
 #
 # print(f6(10))
 
-def f7(a=int(input("Enter any number : "))):
-    return a ** 2
 
-
-print(f7(7))
+# def f7(a=int(input("Enter any number : "))):
+#     return a ** 2
+#
+#
+# print(f7(7))

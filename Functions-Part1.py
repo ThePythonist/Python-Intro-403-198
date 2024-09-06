@@ -53,14 +53,14 @@ def checknumber(x):
 
 # ==============================================================
 
-# def login(username, password):
-#     if username == "admin" and password == "admin":
-#         print("Successfully logged in")
-#         return True
-#     else:
-#         print("Incorrect username or password")
-#         return False
-#
+def login(username, password):
+    if username == "admin" and password == "admin":
+        print("Successfully logged in")
+        return True
+    else:
+        print("Incorrect username or password")
+        return False
+
 #
 # status = login("admin", "admin")
 #
