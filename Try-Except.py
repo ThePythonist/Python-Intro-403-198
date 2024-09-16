@@ -35,10 +35,10 @@
 
 # ------------------------------------------------
 
-# try:
-#     x = int("ali")
-#     print("It is a number")
-# except Exception as error:
-#     print(error)
-#
-# print("edameye barname")
+try:
+    x = int("ali")
+    print("It is a number")
+except Exception as x:
+    print(x)
+
+print("edameye barname")

@@ -18,4 +18,9 @@ def make_dict2(word):
     print(chars)
 
 
-make_dict2("ali")
+def make_dict3(word):
+    chars = dict(zip(range(len(word)), word))
+    print(chars)
+
+
+make_dict3("python")
