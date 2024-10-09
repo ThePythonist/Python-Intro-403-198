@@ -10,3 +10,22 @@ lambda, map, filter
 
 ----------------------------------
 
+framework
+framework & library difference
+
+
+moghadamati :
+math ( mesal hasho bekhonid )
+datetime
+random
+
+
+pishrafte :
+jdatetime
+faker
+sqlite3
+json
+csv
+xmltodict
+xml.element.tree
+tkinter
